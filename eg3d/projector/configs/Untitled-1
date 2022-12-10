@@ -1,0 +1,4 @@
+
+
+
+python gen_videos_from_given_latent_code.py --outdir=out --trunc=0.7 --npy_path ./projector_out/00018_w_plus/00018_w_plus.npy   --network=./projector/PTI/checkpoints/model_AHJASHGBQGUV_s_w.pth --sample_mult=2
