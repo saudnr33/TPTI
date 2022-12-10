@@ -41,5 +41,10 @@ Then run:
 
 ```
 cd eg3d/projector/PTI
-python run_pti_single_image.py
+python run_pti_video.py --in_dir PATH/TO/DIRECTORY --run_name Experiment_name
 ```
+You can generate a video of the results using:
+```
+python saud_gen_video.py --in_dir PATH/TO/DIRECTORY
+```
+
